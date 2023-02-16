@@ -1,0 +1,56 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.pt-11{
+    padding-top: 10rem;
+}
+
+.skewed{
+    transform: rotateY(-23deg) skewX(-12deg);;
+}
+
+// .carousel-control-prev {
+//     left: -81px;
+// }
+// .carousel-control-next {
+//     right: -84px;
+// }
+
+.switcher{
+    width: 39px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: lightgray;
+    position: relative;
+    padding: 5px;
+    transition: 0.5s;
+}
+.switcher .point {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.monthlyActivated{
+    left: 20px !important;
+}
+
+.price{
+    transition:linear;
+}
+
+.transparent{
+    background-color: rgba(0, 0, 0, 0.19);
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

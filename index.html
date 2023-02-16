@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap project</title>
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+<body>
+
+<!--Starting Header-->
+<header>
+    <div class="header_part container p-3 pb-5">
+        <nav class="navbar navbar-expand-md bg-body-tertiary">
+            <div class="container-fluid ">
+              <a class="navbar-brand text-primary fs-4 fw-bold" href="#">Landkit.</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#">Landing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Account</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Documentation</a>
+                  </li>
+                </ul>
+                <button class="btn btn-primary fw-normal py-2 px-3">Buy now</button>
+              </div>
+            </div>
+        </nav>  
+    </div>
+</header>
+<!--Ending The Header-->
+
+<!--Starting the Content-->
+<main class="pt-11 ">
+
+<!--################ First Section ######################-->
+    <section class="container firstSection ">
+        <div class="row flex-column-reverse flex-md-row">
+            <!--first column-->
+            <div class="firstColumn col-12 col-md-6 my-3 d-flex flex-column align-items-center align-items-md-start">
+                <h1>Welcome to <span class="text-primary">Landkit</span>.</h1>
+                <h1>Develop anything.</h1>
+                <p class="lead text-secondary">Build a beautiful, modern website with flexible Bootstrap components built from scratch.</p>
+                <div class="mt-3">
+                    <button class="btn btn-primary py-3 px-4">
+                        <span>View all pages</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right ms-3" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-light py-3 px-4 text-primary">Documentation</button>
+                </div>
+            </div>
+            <!--Second column-->
+            <div class="secondColumn col-12 col-md-6 my-3">
+               <img class="img-fluid" src="./imgs/undraw_engineering_team_a7n2.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+<!--################ Second Section ######################--> 
+    <section class="container my-5 py-5 secondSection">
+        <div class="row">
+                <!--first column-->
+            <div class="col-12 col-md-4 my-2 Built">
+                <div class="d-flex flex-column align-items-start">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="darkblue" class="bi bi-pencil-square m-2" viewBox="0 0 16 16">
+                            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                        </svg>
+                    </div>
+                    <h4 class="fw-lighter">Built for developers</h4>
+                    <p class="lead text-secondary">
+                        Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.
+                    </p>
+                </div>
+            </div>
+                <!--Second column-->
+            <div class="col-12 col-md-4 my-2 design">
+                <div class="d-flex flex-column align-items-start">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="darkblue" class="bi bi-grid-1x2-fill m-2" viewBox="0 0 16 16">
+                            <path d="M0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm0 9a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5z"/>
+                        </svg>
+                    </div>
+                    <h4 class="fw-lighter">Designed to be modern</h4>
+                    <p class="lead text-secondary">
+                        Designed with the latest design trends in mind. Landkit feels modern, minimal, and beautiful.                </p>
+                </div>
+            </div>
+            <!--Third Column-->
+            <div class="col-12 col-md-4 my-2 docum">
+                <div class="d-flex flex-column align-items-start">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="darkblue" class="bi bi-code-slash m-2" viewBox="0 0 16 16">
+                            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                        </svg>
+                    </div>
+                    <h4 class="fw-lighter">Documentation for everything</h4>
+                    <p class="lead text-secondary">
+                        We've written extensive documentation for components and tools, so you never have to reverse engineer anything.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--################ Third Section ######################--> 
+    <section class="border-top border-bottom py-2 ">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <!--first column-->
+                <div class="col-4 col-md-2 mb-4">
+                    <div>
+                        <img class="img-fluid" src="./imgs/airbnb.svg" alt="">
+                    </div>
+                </div>
+                <!--Second column-->
+                <div class="col-4 col-md-2 mb-4">
+                    <div>
+                        <img class="img-fluid" src="./imgs/coinbase.svg" alt="">
+                    </div>
+                </div>
+                <!--third column-->
+                <div class="col-4 col-md-2 mb-4">
+                    <div>
+                        <img class="img-fluid" src="./imgs/dribbble.svg" alt="">
+                    </div>
+                </div>
+                <!--Fourth column-->
+                <div class="col-4 col-md-2 mb-4">
+                    <div>
+                        <img class="img-fluid" src="./imgs/instagram.svg" alt="">
+                    </div>
+                </div>
+                <!--Fivth column-->
+                <div class="col-4 col-md-2 mb-4">
+                    <div>
+                        <img class="img-fluid" src="./imgs/netflix.svg" alt="">
+                    </div>
+                </div>
+                <!--Sixth column-->
+                <div class="col-4 col-md-2 mb-4">
+                    <div>
+                        <img class="img-fluid" src="./imgs/pinterest.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--################ Fourth Section ######################--> 
+    <section class="bg-light">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <!--First column-->
+                <div class="col-12 col-md-5 my-5 sample ">
+                    <div class="bg-white rounded shadow">
+                        <div>
+                            <img class="img-fluid rounded-circle rounded-top" src="./imgs/meeting.jpg" alt="">
+                        </div>
+                        <form class="p-5">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label text-secondary">Name</label>
+                                <input required type="text" aria-label="Name" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label text-secondary">Email</label>
+                              <input required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label text-secondary">Password</label>
+                              <input required type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-info text-white w-100">Download a sample</button>
+                          </form>
+                    </div>
+                </div>
+                <!--Second column-->
+                <div class="col-12 col-md-5 my-5 resource">
+                    <div>
+                        <h3>The most useful resource</h3>
+                        <h3 class="text-success">ever created for founders.</h3>
+                        <p class="lead text-secondary ln-base">
+                            Using Landkit to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.
+                        </p>
+                        <div class="row">
+                            <!--first little column-->
+                            <div class="col-12 col-md-6 my-3">
+                                <div>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lime" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                                        </svg>
+                                    </span>
+                                    <span class="text-info fs-6 ms-2">
+                                        Lifetime updates
+                                    </span>
+                                </div>
+                            </div>
+                            <!--Second little column-->
+                            <div class="col-12 col-md-6 my-3">
+                                <div>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lime" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                                        </svg>
+                                    </span>
+                                    <span class="text-info fs-6 ms-2">
+                                        Tech support
+                                    </span>
+                                </div>
+                            </div>
+                            <!--Third little column-->
+                            <div class="col-12 col-md-6 my-3">
+                                <div>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lime" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                                        </svg>
+                                    </span>
+                                    <span class="text-info fs-6 ms-2">
+                                        Tons of assets
+                                    </span>
+                                </div>
+                            </div>
+                            <!--Fourth little column-->
+                            <div class="col-12 col-md-6 my-3">
+                                <div>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lime" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                            <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                                        </svg>
+                                    </span>
+                                    <span class="text-info fs-6 ms-2">
+                                        Tons of assets
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--################ Fivth Section ######################--> 
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <!--First Column-->
+                <div class="col-12 col-md-6 my-4">
+                    <div>
+                        <h3 class="">We have lots of experience</h3>
+                        <h3 class=" text-primary">building Bootstrap themes.</h3>
+                        <p class="lead text-secondary">
+                            We've built well over a dozen Bootstrap themes and sold tens of thousands of copies.
+                        </p>
+                        <div class="d-flex">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-repeat" viewBox="0 0 16 16">
+                                    <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+                                </svg>
+                            </div>
+                            <div class="mx-3">
+                                <h5>Bootstrap users since the beginning</h5>
+                                <p class="lead text-secondary">
+                                    We've been developing with Bootstrap since it was publicly released in 2011.
+                                </p>
+                            </div>                            
+                        </div>
+                        <div class="d-flex">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-code-slash" viewBox="0 0 16 16">
+                                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                                  </svg>
+                            </div>
+                            <div class="mx-3">
+                                <h5>Deep understanding of Bootstrap</h5>
+                                <p class="lead text-secondary">
+                                    We've watched Bootstrap grow up over the years and understand it better than almost anyone.011.
+                                </p>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <!--Second Column-->
+                <div class="col-12 col-md-6 my-4">
+                    <div >
+                        <img class="img-fluid skewed rounded" src="./imgs/dashbord.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--################ Sixth Section ######################--> 
+    <section class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 py-2 text-center m-auto">
+                    <h3>Our customers are our biggest fans.</h3>
+                    <p class="lead text-secondary ln-base">
+                        We don't like to brag, but we don't mind letting our customers do it for us. Here are a few nice things folks have said about our themes over the years.
+                    </p>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-12">
+                    <div id="carouselExample" class="carousel slide bg-white rounded">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="row align-items-center flex-column flex-md-row">
+                                <div class="col-12 col-md-6">
+                                    <div>
+                                        <img class="img-fluid  rounded-start" src="./imgs/photo1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 py-4 py-md-0">
+                                    <div class="text-center">
+                                        <img class="img-fluid w-25 mb-4" src="./imgs/airbnb.svg" alt="">
+                                        <p class="lead text-black ">
+                                            “Landkit is hands down the most useful front end Bootstrap theme I've ever used. I can't wait to use it again for my next project.”
+                                        </p>
+                                        <span class="text-uppercase text-secondary fs-6">Dave Gamache</span>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-6">
+                                    <div>
+                                        <img class="img-fluid rounded-start" src="./imgs/photo2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 py-4 py-md-0">
+                                    <div class="text-center">
+                                        <img class="img-fluid w-25 mb-4" src="./imgs/instagram.svg" alt="">
+                                        <p class="lead text-black">
+                                            “I've never used a theme as versatile and flexible as Landkit. It's my go to for building landing sites on almost any project.”
+                                        </p>
+                                        <span class="text-uppercase text-secondary fs-6">russ d'sa </span>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-primary rounded-circle p-2" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon bg-primary rounded-circle p-2" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--################ Seventh Section ######################--> 
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!--First Column-->
+                <div class="col-12 col-md-6 my-4">
+                    <div>
+                        <h3 class="">Stay focused on your business.</h3>
+                        <h3 class=" text-primary">Let us handle the design.</h3>
+                        <p class="lead text-secondary">
+                            You have a business to run. Stop worring about cross-browser bugs, designing new pages, keeping your components up to date. Let us do that for you.
+                        </p>
+                        <div class="d-flex">
+                            <div >
+                                <div class="fs-5">100%</div>
+                                <div class="text-secondary">Satisfaction</div>
+                            </div>
+                            <div class="mx-3">
+                                <div class="fs-5">24/ 7</div>
+                                <div class="text-secondary">Support</div>
+                            </div>
+                            <div class="mx-3">
+                                <div class="fs-5">100k+</div>
+                                <div class="text-secondary">Sales</div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <!--Second Column-->
+                <div class="col-12 col-md-6 my-4">
+                    <div>
+                        <img class="img-fluid" src="./imgs/relaxing.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--################ Eighth Section ######################--> 
+    <section class="bg-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 m-auto text-center">
+                    <h2 class="fw-lighter">Fair, simple pricing for all.</h2>
+                    <p class="lead text-secondary">
+                        All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
+                    </p>
+                    <div class="switchPlan d-flex justify-content-center align-items-center">
+                        <div class="text-secondary mx-2">Annual</div>
+                        <div class="switcher">
+                            <span class="point"></span>
+                        </div>
+                        <div class="text-secondary mx-2">Monthly</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5 align-items-center justify-content-center ">
+                <!--Standar plan-->
+                <div class="col-12 col-md-6 my-4">
+                    <div class="bg-white rounded shadow">
+
+                        <div class="d-flex flex-column align-items-center p-4">
+                            <div class="px-3 rounded-pill bg-light my-3"><span class="text-uppercase text-primary">Standard</span></div>
+                            <div>
+                                <span class="fs-1">
+                                    <sup>$</sup>
+                                    <span class="price display-2" data-month="49" data-year="29"></span>
+                                </span>
+                                <span class="fs-2">/mo</span>
+                                <p class="lead fs-6 text-secondary text-center">per seat</p>
+                            </div>
+                        </div>
+
+                        <div class="my-2 px-4 px-md-5 py-2  ">
+                            <div class="d-flex align-items-center my-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lightgreen" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                </svg>
+                                <span class="mx-2">Rich, responsive landing pages</span>
+                            </div>
+                            <div class="d-flex align-items-center my-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lightgreen" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                </svg>
+                                <span class="mx-2">100+ styled components</span>
+                            </div>
+                            <div class="d-flex align-items-center my-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lightgreen" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                </svg>
+                                <span class="mx-2">Flexible, simple license</span>
+                            </div>
+                            <div class="d-flex align-items-center my-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lightgreen" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                </svg>
+                                <span class="mx-2">Speedy build tooling</span>
+                            </div>
+                            <div class="d-flex align-items-center my-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="lightgreen" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                                </svg>
+                                <span class="mx-2">6 months free support included</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="btn btn-primary text-white w-100 rounded-0 rounded-bottom p-3">
+                                Get it now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Entreprise plan-->
+                <div class="col-12 col-md-6 my-4">
+                    <div class="bg-white rounded shadow">
+
+                        <div class="d-flex flex-column align-items-center p-4">
+                            <div class="px-3 rounded-pill bg-light my-3"><span class="text-uppercase text-primary">Entreprise</span></div>
+                        </div>
+
+                        <div class="my-5 px-2 px-md-5 py-2">
+                            <p class="lead text-secondary text-center">
+                                We offer variable pricing with discounts for larger organizations. Get in touch with us and we’ll figure out something that works for everyone.
+                            </p>
+                        </div>
+
+                        <div>
+                            <button class="btn bg-light text-secondary w-100 rounded-0 rounded-bottom p-3">
+                                Contact us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--################ Ninth Section ######################--> 
+    <section class="py-5 bg-dark ">
+        <div class="container">
+            <!--First Row -->
+            <div class="row">
+                <!--First Column-->
+                <div class="col-12 col-md-6 my-3">
+                    <div class="d-flex">
+                        <span class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="lightgreen" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                            </svg>
+                        </span>
+                        <div class="mx-4">
+                            <h4 class="text-white">Can I use Landkit for my clients?</h4>
+                            <p class="lead text-secondary">
+                                Absolutely. The Bootstrap Themes license allows you to build a website for personal use or for a client.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Second Column-->
+                <div class="col-12 col-md-6  my-3">
+                    <div class="d-flex">
+                        <span class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="lightgreen" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                            </svg>
+                        </span>
+                        <div class="mx-4">
+                            <h4 class="text-white">Is there a money back guarantee?</h4>
+                            <p class="lead text-secondary">
+                                Yup! Bootstrap Themes come with a satisfaction guarantee. Submit a return and get your money back.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Third Column-->
+                <div class="col-12 col-md-6  my-3">
+                    <div class="d-flex">
+                        <span class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="lightgreen" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                            </svg>
+                        </span>
+                        <div class="mx-4">
+                            <h4 class="text-white">Do I get free updates?</h4>
+                            <p class="lead text-secondary">
+                                Yes. We update all of our themes with each Bootstrap update, plus are constantly adding new components, pages, and features to our themes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--Third Column-->
+                <div class="col-12 col-md-6  my-3">
+                    <div class="d-flex">
+                        <span class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="lightgreen" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                            </svg>
+                        </span>
+                        <div class="mx-4">
+                            <h4 class="text-white">Does it work with Rails? React? Laravel?</h4>
+                            <p class="lead text-secondary">
+                                Yes. Landkit has basic CSS/JS files you can include. If you want to enable deeper customization, you can integrate it into your assets pipeline or build processes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Second Row -->
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="d-flex flex-column align-items-center ">
+                        <span class="transparent p-1 px-3 rounded-pill my-3">
+                            <span class="text-uppercase text-white fs-6">get started</span>
+                        </span>
+                        <h1 class="text-white fs-3 fs-md-1">Get Landkit and save your time.</h1>
+                        <p class="lead text-secondary">
+                            Stop wasting time trying to do it the "right way" and build a site from scratch. Landkit is faster, easier, and you still have complete control.
+                        </p>
+                        <button class="btn btn-success p-3 text-white my-4">
+                            <span>But it now</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!--Ending The Content-->
+<!--############## Footer #########################-->
+
+<footer class="bg-light py-5">
+    <div class="container">
+        <div class="row p-3">
+            <!--First Column-->
+            <div class="col-12 col-md-4">
+                <div>
+                    <div class="text-primary fs-4 fw-bold">Landkit</div>
+                    <p class="lead">A better way to build.</p>
+                    <div class="d-flex  align-items-center">
+                        <div class="me-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg>
+                        </div>
+                        <div class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg>
+                        </div>
+                        <div class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                            </svg>
+                        </div>
+                        <div class="mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+                                <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Second Column-->
+            <div class="col-6 col-md-2 my-3">
+                <div>
+                    <h6>Product</h6>
+                    <div class="d-flex flex-column align-items-tart ">
+                        <a href="#" class="text-secondary">Page Builder</a>
+                        <a href="#" class="text-secondary">UI Kit</a>
+                        <a href="#" class="text-secondary">Styleguide</a>
+                        <a href="#" class="text-secondary">Documentation</a>
+                        <a href="#" class="text-secondary">Changelog</a>
+                    </div>
+                </div>
+            </div>
+            <!--Third Column-->
+            <div class="col-6 col-md-2 my-3">
+                <div>
+                    <h6>Services</h6>
+                    <div class="d-flex flex-column align-items-tart ">
+                        <a href="#" class="text-secondary">Documentation</a>
+                        <a href="#" class="text-secondary">Changeloc</a>
+                        <a href="#" class="text-secondary">PageBuilder</a>
+                        <a href="#" class="text-secondary">Ui Kit</a>
+                    </div>
+                </div>
+            </div>
+            <!--Fourth Column-->
+            <div class="col-6 col-md-2 my-3">
+                <div>
+                    <h6>Connect</h6>
+                    <div class="d-flex flex-column align-items-tart ">
+                        <a href="#" class="text-secondary">Ui Kit</a>
+                        <a href="#" class="text-secondary">PageBuilder</a>
+                        <a href="#" class="text-secondary">Documentation</a>
+                        <a href="#" class="text-secondary">Changeloc</a>
+                        <a href="#" class="text-secondary">Styleguide</a>
+                    </div>
+                </div>
+            </div>
+            <!--Fiveth Column-->
+            <div class="col-6 col-md-2 my-3">
+                <div>
+                    <h6>Legal</h6>
+                    <div class="d-flex flex-column align-items-tart ">
+                        <a href="#" class="text-secondary">Documentation</a>
+                        <a href="#" class="text-secondary">Changeloc</a>
+                        <a href="#" class="text-secondary">Ui Kit</a>
+                        <a href="#" class="text-secondary">Styleguide</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+<script src="./main.js"></script>
+</body>
+</html>
